@@ -16,6 +16,12 @@ const languages = {
     close_multiline_comment: '*/',
     extension: 'js',
     command: 'node',
+  },
+  csharp: {
+    open_multiline_comment: '/*',
+    close_multiline_comment: '*/',
+    extension: 'cs',
+    command: 'start',
   }
 }
 
