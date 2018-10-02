@@ -16,6 +16,18 @@ const languages = {
     close_multiline_comment: '*/',
     extension: 'js',
     command: 'node',
+  },
+  swift: {
+     open_multiline_comment: '/*',
+     close_multiline_comment: '*/',
+     extension: 'swift',
+     command: 'swift',
+  },
+  c: {
+     open_multiline_comment: '/*',
+     close_multiline_comment: '*/',
+     extension: 'c',
+     command: 'c',
   }
 }
 
