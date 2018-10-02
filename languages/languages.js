@@ -16,6 +16,12 @@ const languages = {
     close_multiline_comment: '*/',
     extension: 'js',
     command: 'node',
+  },
+  ruby: {
+    open_multiline_comment: '=begin',
+    close_multiline_comment: '=end',
+    extension: 'rb',
+    command: 'ruby'
   }
 }
 
