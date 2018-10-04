@@ -41,6 +41,24 @@ const languages = {
     extension: 'swift',
     command: 'swift',
   },
+  php: {
+    open_multiline_comment: '/*',
+    close_multiline_comment: '*/',
+    extension: 'php',
+    command: 'php',
+  },
+  swift: {
+     open_multiline_comment: '/*',
+     close_multiline_comment: '*/',
+     extension: 'swift',
+     command: 'swift',
+  },
+  c: {
+     open_multiline_comment: '/*',
+     close_multiline_comment: '*/',
+     extension: 'c',
+     command: 'c',
+  },
   ruby: {
     open_multiline_comment: '=begin',
     close_multiline_comment: '=end',
@@ -122,20 +140,20 @@ const languages = {
   wolfram: {
     open_multiline_comment: '(*',
     close_multiline_comment: '*)',
-    extension: 'nb',
-    command: 'wolfram',
-  },
-  wolfram: {
-    open_multiline_comment: '(*',
-    close_multiline_comment: '*)',
     extension: 'm',
     command: 'wolfram',
   },
-  wolfram: {
-    open_multiline_comment: '(*',
-    close_multiline_comment: '*)',
-    extension: 'wl',
-    command: 'wolfram',
+  "c#": {
+    open_multiline_comment: '/*',
+    close_multiline_comment: '*/',
+    extension: 'cs',
+    command: 'start',
+  },
+  kotlin: {
+    open_multiline_comment: '/*',
+    close_multiline_comment: '*/',
+    extension: 'kt',
+    command: 'kotlinc',
   }
 }
 
