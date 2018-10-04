@@ -22,6 +22,12 @@ const languages = {
     close_multiline_comment: '*/',
     extension: 'cs',
     command: 'start',
+  },
+  kotlin: {
+    open_multiline_comment: '/*',
+    close_multiline_comment: '*/',
+    extension: 'kt',
+    command: 'kotlinc'
   }
 }
 
