@@ -17,6 +17,18 @@ const languages = {
     extension: 'js',
     command: 'node',
   },
+  swift: {
+     open_multiline_comment: '/*',
+     close_multiline_comment: '*/',
+     extension: 'swift',
+     command: 'swift',
+  },
+  c: {
+     open_multiline_comment: '/*',
+     close_multiline_comment: '*/',
+     extension: 'c',
+     command: 'c',
+  },
   ruby: {
     open_multiline_comment: '=begin',
     close_multiline_comment: '=end',
@@ -33,7 +45,7 @@ const languages = {
     open_multiline_comment: '/*',
     close_multiline_comment: '*/',
     extension: 'kt',
-    command: 'kotlinc'
+    command: 'kotlinc',
   }
 }
 
