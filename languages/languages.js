@@ -17,6 +17,12 @@ const languages = {
     extension: 'js',
     command: 'node',
   },
+  csharp: {
+    open_multiline_comment: '/*',
+    close_multiline_comment: '*/',
+    extension: 'cs',
+    command: 'start',
+  },
   kotlin: {
     open_multiline_comment: '/*',
     close_multiline_comment: '*/',
