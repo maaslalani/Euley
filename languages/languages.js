@@ -17,6 +17,12 @@ const languages = {
     extension: 'js',
     command: 'node',
   },
+  php: {
+    open_multiline_comment: '/*',
+    close_multiline_comment: '*/',
+    extension: 'php',
+    command: 'php',
+  },
   swift: {
      open_multiline_comment: '/*',
      close_multiline_comment: '*/',
